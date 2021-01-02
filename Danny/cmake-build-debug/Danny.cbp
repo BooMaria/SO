@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="Danny"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Danny">
+				<Option output="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Danny" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 Danny"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="Danny/fast">
+				<Option output="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Danny" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/12.0.0/include"/>
+					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
+					<Add directory="/System/Library/Frameworks"/>
+					<Add directory="/Library/Frameworks"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 Danny/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/conexio.c">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/conexio.h">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/danny.c">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/fitxer.c">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/fitxer.h">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/jpg.c">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/jpg.h">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/mensaje.c">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/mensaje.h">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/until.c">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/until.h">
+			<Option target="Danny"/>
+		</Unit>
+		<Unit filename="/Users/Maria/Downloads/Practica-6/Danny/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

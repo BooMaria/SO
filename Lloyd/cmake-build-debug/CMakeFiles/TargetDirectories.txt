@@ -1,0 +1,3 @@
+/Users/xavier/Google Drive/URL/3ºURL/Sistemes Operatius/Practica/Lloyd/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/xavier/Google Drive/URL/3ºURL/Sistemes Operatius/Practica/Lloyd/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/xavier/Google Drive/URL/3ºURL/Sistemes Operatius/Practica/Lloyd/cmake-build-debug/CMakeFiles/Lloyd.dir
