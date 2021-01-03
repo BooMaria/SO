@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Maria/Downloads/Practica-6/Danny
+CMAKE_SOURCE_DIR = /Users/Maria/Documents/GitHub/SO/Danny
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Danny.dir/depend.make
@@ -79,81 +79,81 @@ include CMakeFiles/Danny.dir/flags.make
 
 CMakeFiles/Danny.dir/danny.c.o: CMakeFiles/Danny.dir/flags.make
 CMakeFiles/Danny.dir/danny.c.o: ../danny.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Danny.dir/danny.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/danny.c.o   -c /Users/Maria/Downloads/Practica-6/Danny/danny.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Danny.dir/danny.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/danny.c.o   -c /Users/Maria/Documents/GitHub/SO/Danny/danny.c
 
 CMakeFiles/Danny.dir/danny.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Danny.dir/danny.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Danny/danny.c > CMakeFiles/Danny.dir/danny.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Danny/danny.c > CMakeFiles/Danny.dir/danny.c.i
 
 CMakeFiles/Danny.dir/danny.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Danny.dir/danny.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Danny/danny.c -o CMakeFiles/Danny.dir/danny.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Danny/danny.c -o CMakeFiles/Danny.dir/danny.c.s
 
 CMakeFiles/Danny.dir/fitxer.c.o: CMakeFiles/Danny.dir/flags.make
 CMakeFiles/Danny.dir/fitxer.c.o: ../fitxer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Danny.dir/fitxer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/fitxer.c.o   -c /Users/Maria/Downloads/Practica-6/Danny/fitxer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Danny.dir/fitxer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/fitxer.c.o   -c /Users/Maria/Documents/GitHub/SO/Danny/fitxer.c
 
 CMakeFiles/Danny.dir/fitxer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Danny.dir/fitxer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Danny/fitxer.c > CMakeFiles/Danny.dir/fitxer.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Danny/fitxer.c > CMakeFiles/Danny.dir/fitxer.c.i
 
 CMakeFiles/Danny.dir/fitxer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Danny.dir/fitxer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Danny/fitxer.c -o CMakeFiles/Danny.dir/fitxer.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Danny/fitxer.c -o CMakeFiles/Danny.dir/fitxer.c.s
 
 CMakeFiles/Danny.dir/conexio.c.o: CMakeFiles/Danny.dir/flags.make
 CMakeFiles/Danny.dir/conexio.c.o: ../conexio.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Danny.dir/conexio.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/conexio.c.o   -c /Users/Maria/Downloads/Practica-6/Danny/conexio.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Danny.dir/conexio.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/conexio.c.o   -c /Users/Maria/Documents/GitHub/SO/Danny/conexio.c
 
 CMakeFiles/Danny.dir/conexio.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Danny.dir/conexio.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Danny/conexio.c > CMakeFiles/Danny.dir/conexio.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Danny/conexio.c > CMakeFiles/Danny.dir/conexio.c.i
 
 CMakeFiles/Danny.dir/conexio.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Danny.dir/conexio.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Danny/conexio.c -o CMakeFiles/Danny.dir/conexio.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Danny/conexio.c -o CMakeFiles/Danny.dir/conexio.c.s
 
 CMakeFiles/Danny.dir/until.c.o: CMakeFiles/Danny.dir/flags.make
 CMakeFiles/Danny.dir/until.c.o: ../until.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Danny.dir/until.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/until.c.o   -c /Users/Maria/Downloads/Practica-6/Danny/until.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Danny.dir/until.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/until.c.o   -c /Users/Maria/Documents/GitHub/SO/Danny/until.c
 
 CMakeFiles/Danny.dir/until.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Danny.dir/until.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Danny/until.c > CMakeFiles/Danny.dir/until.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Danny/until.c > CMakeFiles/Danny.dir/until.c.i
 
 CMakeFiles/Danny.dir/until.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Danny.dir/until.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Danny/until.c -o CMakeFiles/Danny.dir/until.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Danny/until.c -o CMakeFiles/Danny.dir/until.c.s
 
 CMakeFiles/Danny.dir/mensaje.c.o: CMakeFiles/Danny.dir/flags.make
 CMakeFiles/Danny.dir/mensaje.c.o: ../mensaje.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Danny.dir/mensaje.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/mensaje.c.o   -c /Users/Maria/Downloads/Practica-6/Danny/mensaje.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Danny.dir/mensaje.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/mensaje.c.o   -c /Users/Maria/Documents/GitHub/SO/Danny/mensaje.c
 
 CMakeFiles/Danny.dir/mensaje.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Danny.dir/mensaje.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Danny/mensaje.c > CMakeFiles/Danny.dir/mensaje.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Danny/mensaje.c > CMakeFiles/Danny.dir/mensaje.c.i
 
 CMakeFiles/Danny.dir/mensaje.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Danny.dir/mensaje.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Danny/mensaje.c -o CMakeFiles/Danny.dir/mensaje.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Danny/mensaje.c -o CMakeFiles/Danny.dir/mensaje.c.s
 
 CMakeFiles/Danny.dir/jpg.c.o: CMakeFiles/Danny.dir/flags.make
 CMakeFiles/Danny.dir/jpg.c.o: ../jpg.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Danny.dir/jpg.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/jpg.c.o   -c /Users/Maria/Downloads/Practica-6/Danny/jpg.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Danny.dir/jpg.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Danny.dir/jpg.c.o   -c /Users/Maria/Documents/GitHub/SO/Danny/jpg.c
 
 CMakeFiles/Danny.dir/jpg.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Danny.dir/jpg.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Danny/jpg.c > CMakeFiles/Danny.dir/jpg.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Danny/jpg.c > CMakeFiles/Danny.dir/jpg.c.i
 
 CMakeFiles/Danny.dir/jpg.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Danny.dir/jpg.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Danny/jpg.c -o CMakeFiles/Danny.dir/jpg.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Danny/jpg.c -o CMakeFiles/Danny.dir/jpg.c.s
 
 # Object files for target Danny
 Danny_OBJECTS = \
@@ -175,7 +175,7 @@ Danny: CMakeFiles/Danny.dir/mensaje.c.o
 Danny: CMakeFiles/Danny.dir/jpg.c.o
 Danny: CMakeFiles/Danny.dir/build.make
 Danny: CMakeFiles/Danny.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Danny"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Danny"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Danny.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/Danny.dir/clean:
 .PHONY : CMakeFiles/Danny.dir/clean
 
 CMakeFiles/Danny.dir/depend:
-	cd /Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maria/Downloads/Practica-6/Danny /Users/Maria/Downloads/Practica-6/Danny /Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug /Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug /Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maria/Documents/GitHub/SO/Danny /Users/Maria/Documents/GitHub/SO/Danny /Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug /Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug /Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Danny.dir/depend
 

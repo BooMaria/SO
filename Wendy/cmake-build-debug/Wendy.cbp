@@ -8,38 +8,38 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug"/>
+				<Option working_dir="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug"/>
+				<Option working_dir="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug"/>
+				<Option working_dir="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Wendy">
-				<Option output="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Wendy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug"/>
+				<Option output="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Wendy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -51,15 +51,15 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wendy"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wendy"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="Wendy/fast">
-				<Option output="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Wendy" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug"/>
+				<Option output="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Wendy" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
@@ -71,53 +71,53 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wendy/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 Wendy/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/fitxer.c">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/fitxer.c">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/fitxer.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/fitxer.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/jpg.c">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/jpg.c">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/jpg.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/jpg.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/mensaje.c">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/mensaje.c">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/mensaje.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/mensaje.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/semaphore_v2.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/semaphore_v2.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/servidor.c">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/servidor.c">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/servidor.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/servidor.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/servidorDedicat.c">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/servidorDedicat.c">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/servidorDedicat.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/servidorDedicat.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/until.c">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/until.c">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/until.h">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/until.h">
 			<Option target="Wendy"/>
 		</Unit>
-		<Unit filename="/Users/Maria/Downloads/Practica-6/Wendy/CMakeLists.txt">
+		<Unit filename="/Users/Maria/Documents/GitHub/SO/Wendy/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>

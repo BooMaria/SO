@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Maria/Downloads/Practica-6/Danny/conexio.c" "/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/conexio.c.o"
-  "/Users/Maria/Downloads/Practica-6/Danny/danny.c" "/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/danny.c.o"
-  "/Users/Maria/Downloads/Practica-6/Danny/fitxer.c" "/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/fitxer.c.o"
-  "/Users/Maria/Downloads/Practica-6/Danny/jpg.c" "/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/jpg.c.o"
-  "/Users/Maria/Downloads/Practica-6/Danny/mensaje.c" "/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/mensaje.c.o"
-  "/Users/Maria/Downloads/Practica-6/Danny/until.c" "/Users/Maria/Downloads/Practica-6/Danny/cmake-build-debug/CMakeFiles/Danny.dir/until.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Danny/conexio.c" "/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/conexio.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Danny/danny.c" "/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/danny.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Danny/fitxer.c" "/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/fitxer.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Danny/jpg.c" "/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/jpg.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Danny/mensaje.c" "/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/mensaje.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Danny/until.c" "/Users/Maria/Documents/GitHub/SO/Danny/cmake-build-debug/CMakeFiles/Danny.dir/until.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

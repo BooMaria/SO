@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Maria/Downloads/Practica-6/Jack/fitxer.c" "/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/fitxer.c.o"
-  "/Users/Maria/Downloads/Practica-6/Jack/llistaEstacions.c" "/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/llistaEstacions.c.o"
-  "/Users/Maria/Downloads/Practica-6/Jack/mensaje.c" "/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/mensaje.c.o"
-  "/Users/Maria/Downloads/Practica-6/Jack/servidor.c" "/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/servidor.c.o"
-  "/Users/Maria/Downloads/Practica-6/Jack/servidorDedicat.c" "/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/servidorDedicat.c.o"
-  "/Users/Maria/Downloads/Practica-6/Jack/until.c" "/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/until.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Jack/fitxer.c" "/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/fitxer.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Jack/llistaEstacions.c" "/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/llistaEstacions.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Jack/mensaje.c" "/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/mensaje.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Jack/servidor.c" "/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/servidor.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Jack/servidorDedicat.c" "/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/servidorDedicat.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Jack/until.c" "/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/until.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

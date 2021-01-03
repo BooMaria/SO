@@ -4,12 +4,12 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_C
-  "/Users/Maria/Downloads/Practica-6/Wendy/fitxer.c" "/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/fitxer.c.o"
-  "/Users/Maria/Downloads/Practica-6/Wendy/jpg.c" "/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/jpg.c.o"
-  "/Users/Maria/Downloads/Practica-6/Wendy/mensaje.c" "/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/mensaje.c.o"
-  "/Users/Maria/Downloads/Practica-6/Wendy/servidor.c" "/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/servidor.c.o"
-  "/Users/Maria/Downloads/Practica-6/Wendy/servidorDedicat.c" "/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/servidorDedicat.c.o"
-  "/Users/Maria/Downloads/Practica-6/Wendy/until.c" "/Users/Maria/Downloads/Practica-6/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/until.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Wendy/fitxer.c" "/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/fitxer.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Wendy/jpg.c" "/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/jpg.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Wendy/mensaje.c" "/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/mensaje.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Wendy/servidor.c" "/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/servidor.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Wendy/servidorDedicat.c" "/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/servidorDedicat.c.o"
+  "/Users/Maria/Documents/GitHub/SO/Wendy/until.c" "/Users/Maria/Documents/GitHub/SO/Wendy/cmake-build-debug/CMakeFiles/Wendy.dir/until.c.o"
   )
 set(CMAKE_C_COMPILER_ID "AppleClang")
 

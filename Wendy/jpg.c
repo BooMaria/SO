@@ -63,6 +63,7 @@ char* JPG_calculMD5(char *file){
             close(pipeRead[READ]);
             dup2(pipeRead[WRITE], 1);
             execvp(cmd, argv);
+            //free(path);
             exit(0);
         default://pare
             close(pipeRead[WRITE]);

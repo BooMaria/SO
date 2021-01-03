@@ -63,10 +63,10 @@ RM = /Applications/CLion.app/Contents/bin/cmake/mac/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /Users/Maria/Downloads/Practica-6/Jack
+CMAKE_SOURCE_DIR = /Users/Maria/Documents/GitHub/SO/Jack
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug
+CMAKE_BINARY_DIR = /Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug
 
 # Include any dependencies generated for this target.
 include CMakeFiles/Jack.dir/depend.make
@@ -79,81 +79,81 @@ include CMakeFiles/Jack.dir/flags.make
 
 CMakeFiles/Jack.dir/servidor.c.o: CMakeFiles/Jack.dir/flags.make
 CMakeFiles/Jack.dir/servidor.c.o: ../servidor.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Jack.dir/servidor.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/servidor.c.o   -c /Users/Maria/Downloads/Practica-6/Jack/servidor.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building C object CMakeFiles/Jack.dir/servidor.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/servidor.c.o   -c /Users/Maria/Documents/GitHub/SO/Jack/servidor.c
 
 CMakeFiles/Jack.dir/servidor.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Jack.dir/servidor.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Jack/servidor.c > CMakeFiles/Jack.dir/servidor.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Jack/servidor.c > CMakeFiles/Jack.dir/servidor.c.i
 
 CMakeFiles/Jack.dir/servidor.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Jack.dir/servidor.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Jack/servidor.c -o CMakeFiles/Jack.dir/servidor.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Jack/servidor.c -o CMakeFiles/Jack.dir/servidor.c.s
 
 CMakeFiles/Jack.dir/servidorDedicat.c.o: CMakeFiles/Jack.dir/flags.make
 CMakeFiles/Jack.dir/servidorDedicat.c.o: ../servidorDedicat.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Jack.dir/servidorDedicat.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/servidorDedicat.c.o   -c /Users/Maria/Downloads/Practica-6/Jack/servidorDedicat.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building C object CMakeFiles/Jack.dir/servidorDedicat.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/servidorDedicat.c.o   -c /Users/Maria/Documents/GitHub/SO/Jack/servidorDedicat.c
 
 CMakeFiles/Jack.dir/servidorDedicat.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Jack.dir/servidorDedicat.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Jack/servidorDedicat.c > CMakeFiles/Jack.dir/servidorDedicat.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Jack/servidorDedicat.c > CMakeFiles/Jack.dir/servidorDedicat.c.i
 
 CMakeFiles/Jack.dir/servidorDedicat.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Jack.dir/servidorDedicat.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Jack/servidorDedicat.c -o CMakeFiles/Jack.dir/servidorDedicat.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Jack/servidorDedicat.c -o CMakeFiles/Jack.dir/servidorDedicat.c.s
 
 CMakeFiles/Jack.dir/until.c.o: CMakeFiles/Jack.dir/flags.make
 CMakeFiles/Jack.dir/until.c.o: ../until.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Jack.dir/until.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/until.c.o   -c /Users/Maria/Downloads/Practica-6/Jack/until.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building C object CMakeFiles/Jack.dir/until.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/until.c.o   -c /Users/Maria/Documents/GitHub/SO/Jack/until.c
 
 CMakeFiles/Jack.dir/until.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Jack.dir/until.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Jack/until.c > CMakeFiles/Jack.dir/until.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Jack/until.c > CMakeFiles/Jack.dir/until.c.i
 
 CMakeFiles/Jack.dir/until.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Jack.dir/until.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Jack/until.c -o CMakeFiles/Jack.dir/until.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Jack/until.c -o CMakeFiles/Jack.dir/until.c.s
 
 CMakeFiles/Jack.dir/llistaEstacions.c.o: CMakeFiles/Jack.dir/flags.make
 CMakeFiles/Jack.dir/llistaEstacions.c.o: ../llistaEstacions.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Jack.dir/llistaEstacions.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/llistaEstacions.c.o   -c /Users/Maria/Downloads/Practica-6/Jack/llistaEstacions.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/Jack.dir/llistaEstacions.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/llistaEstacions.c.o   -c /Users/Maria/Documents/GitHub/SO/Jack/llistaEstacions.c
 
 CMakeFiles/Jack.dir/llistaEstacions.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Jack.dir/llistaEstacions.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Jack/llistaEstacions.c > CMakeFiles/Jack.dir/llistaEstacions.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Jack/llistaEstacions.c > CMakeFiles/Jack.dir/llistaEstacions.c.i
 
 CMakeFiles/Jack.dir/llistaEstacions.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Jack.dir/llistaEstacions.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Jack/llistaEstacions.c -o CMakeFiles/Jack.dir/llistaEstacions.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Jack/llistaEstacions.c -o CMakeFiles/Jack.dir/llistaEstacions.c.s
 
 CMakeFiles/Jack.dir/mensaje.c.o: CMakeFiles/Jack.dir/flags.make
 CMakeFiles/Jack.dir/mensaje.c.o: ../mensaje.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Jack.dir/mensaje.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/mensaje.c.o   -c /Users/Maria/Downloads/Practica-6/Jack/mensaje.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/Jack.dir/mensaje.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/mensaje.c.o   -c /Users/Maria/Documents/GitHub/SO/Jack/mensaje.c
 
 CMakeFiles/Jack.dir/mensaje.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Jack.dir/mensaje.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Jack/mensaje.c > CMakeFiles/Jack.dir/mensaje.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Jack/mensaje.c > CMakeFiles/Jack.dir/mensaje.c.i
 
 CMakeFiles/Jack.dir/mensaje.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Jack.dir/mensaje.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Jack/mensaje.c -o CMakeFiles/Jack.dir/mensaje.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Jack/mensaje.c -o CMakeFiles/Jack.dir/mensaje.c.s
 
 CMakeFiles/Jack.dir/fitxer.c.o: CMakeFiles/Jack.dir/flags.make
 CMakeFiles/Jack.dir/fitxer.c.o: ../fitxer.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Jack.dir/fitxer.c.o"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/fitxer.c.o   -c /Users/Maria/Downloads/Practica-6/Jack/fitxer.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/Jack.dir/fitxer.c.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles/Jack.dir/fitxer.c.o   -c /Users/Maria/Documents/GitHub/SO/Jack/fitxer.c
 
 CMakeFiles/Jack.dir/fitxer.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Jack.dir/fitxer.c.i"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Downloads/Practica-6/Jack/fitxer.c > CMakeFiles/Jack.dir/fitxer.c.i
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /Users/Maria/Documents/GitHub/SO/Jack/fitxer.c > CMakeFiles/Jack.dir/fitxer.c.i
 
 CMakeFiles/Jack.dir/fitxer.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Jack.dir/fitxer.c.s"
-	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Downloads/Practica-6/Jack/fitxer.c -o CMakeFiles/Jack.dir/fitxer.c.s
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /Users/Maria/Documents/GitHub/SO/Jack/fitxer.c -o CMakeFiles/Jack.dir/fitxer.c.s
 
 # Object files for target Jack
 Jack_OBJECTS = \
@@ -175,7 +175,7 @@ Jack: CMakeFiles/Jack.dir/mensaje.c.o
 Jack: CMakeFiles/Jack.dir/fitxer.c.o
 Jack: CMakeFiles/Jack.dir/build.make
 Jack: CMakeFiles/Jack.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Jack"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable Jack"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Jack.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -188,6 +188,6 @@ CMakeFiles/Jack.dir/clean:
 .PHONY : CMakeFiles/Jack.dir/clean
 
 CMakeFiles/Jack.dir/depend:
-	cd /Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maria/Downloads/Practica-6/Jack /Users/Maria/Downloads/Practica-6/Jack /Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug /Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug /Users/Maria/Downloads/Practica-6/Jack/cmake-build-debug/CMakeFiles/Jack.dir/DependInfo.cmake --color=$(COLOR)
+	cd /Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /Users/Maria/Documents/GitHub/SO/Jack /Users/Maria/Documents/GitHub/SO/Jack /Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug /Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug /Users/Maria/Documents/GitHub/SO/Jack/cmake-build-debug/CMakeFiles/Jack.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/Jack.dir/depend
 

@@ -186,6 +186,7 @@ int protocolImgRebuda(int fd){
     Mensaje mensaje;
     char bufferRead[150];
     int a = read(fd, &bufferRead, 150);
+    write(1, &bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_WENDY) == 0){
@@ -208,6 +209,7 @@ int protocolImgOk(int fd){
     Mensaje mensaje;
     char bufferRead[150];
     int a = read(fd, &bufferRead, 150);
+    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_WENDY) == 0){
@@ -233,6 +235,7 @@ int protocolDadesRebudes(int fd){
     Mensaje mensaje;
     char bufferRead[150];
     int a = read(fd, &bufferRead, 150);
+    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_JACK) == 0){

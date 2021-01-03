@@ -52,6 +52,7 @@ int SERDEDICAT_run(int fd){
         ssDD.conexions = (Conexio **)realloc((ssDD.conexions), sizeof(Conexio *) * (ssDD.numElements + 1));
         ssDD.conexions[ssDD.numElements] = aux;
         ssDD.numElements++;
+        free(aux);
     }
     return 1;
 }
@@ -168,6 +169,7 @@ int protocolDades(int fd){
     char *bufferWrite;
     char *md5;
     int a = read(fd, &bufferRead, SIZEMSG);
+    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_DANNY) == 0){
@@ -235,6 +237,7 @@ int protocolImatge(int fd, Jpg *jpg, int inici){
     char bufferRead[150];
     char *bufferWrite;
     int a = read(fd, &bufferRead, SIZEMSG);
+    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreureImg(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_DANNY) == 0){
