@@ -74,6 +74,7 @@ int CONEXIO_EnviarWendy(Jpg *jpg){
     char *buffer;
     buffer = UNTIL_crearMsjInfoImatge(jpg->nomFitxer, jpg->size, jpg->md5sum);
     MENSAJE_crear(&mensaje, ORIGEN_DANNY, TIPUS_I, buffer);
+    free(buffer);
     buffer = MENSAJE_envio(&mensaje);
     write(conexWendy.fd, buffer, SIZEMSG);
     free(buffer);
@@ -186,7 +187,6 @@ int protocolImgRebuda(int fd){
     Mensaje mensaje;
     char bufferRead[150];
     int a = read(fd, &bufferRead, 150);
-    write(1, &bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_WENDY) == 0){
@@ -209,7 +209,6 @@ int protocolImgOk(int fd){
     Mensaje mensaje;
     char bufferRead[150];
     int a = read(fd, &bufferRead, 150);
-    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_WENDY) == 0){
@@ -235,7 +234,6 @@ int protocolDadesRebudes(int fd){
     Mensaje mensaje;
     char bufferRead[150];
     int a = read(fd, &bufferRead, 150);
-    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_JACK) == 0){

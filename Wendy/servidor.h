@@ -1,6 +1,11 @@
-//
-// Created by Xavier Cavaller Alles on 28/12/2020.
-//
+/*
+ * Autors:
+ * Maria Aguilà Pons : maria.aguila
+ * Xavier Cavaller Allés : xavier.cavaller
+ * Data: 17/12/2020
+ * Descripció: Sevidor, este codigo gestiona las peticiones de las estaciones para generar
+ * un servidor dedicado.
+ */
 
 #ifndef WENDY_SERVIDOR_H
 #define WENDY_SERVIDOR_H
@@ -19,6 +24,7 @@
 //Mensajes user
 #define SERVER_INIT             "\nServer init..."
 #define WAIT_CONNECT            "\nWait connect..."
+#define CLOSE_SERVER            "\nClose server..."
 
 
 #define ICP_PRIVATE             1234

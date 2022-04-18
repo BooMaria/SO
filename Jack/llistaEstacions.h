@@ -26,7 +26,7 @@ typedef struct{
 
 typedef struct{
     int numElements;
-    Elemento **llista;
+    Elemento *llista;//*OKO
 }Llista;
 
 Llista LLISTAREFER_crea();

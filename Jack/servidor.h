@@ -12,6 +12,7 @@
 
 #include <sys/ipc.h>
 #include <sys/shm.h>
+#include <sys/wait.h>
 #include <unistd.h>
 #include <arpa/inet.h>
 #include <sys/socket.h>

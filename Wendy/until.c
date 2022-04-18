@@ -46,7 +46,7 @@ char* UNTIL_readArray(char* msg, char end){
         }
         msg[j - 1] = '\0';
         if (c != end && c != '\0') {
-            string = (char*)realloc(string, sizeof(char) * (i + 1));
+            string = (char*)realloc(string, sizeof(char) * (i + 2));
             string[i++] = c;
         }else {
             i++;

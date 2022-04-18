@@ -14,18 +14,18 @@ void FITXER_writeDades(Llista *l){
         write( 1 , ERROR_FICHER_DADES ,sizeof(ERROR_FICHER_DADES ));
     }else {
         for(int i = 0; i < l->numElements; i++) {
-            write(fd, l->llista[i]->nom, strlen(l->llista[i]->nom));
+            write(fd, l->llista[i].nom, strlen(l->llista[i].nom));
 
-            sprintf(buffer, "\nTemperatura: %.1f", l->llista[i]->temp);
+            sprintf(buffer, "\nTemperatura: %.1f", l->llista[i].temp);
             write(fd, buffer, strlen(buffer));
 
-            sprintf(buffer, "\nHumitat: %d", l->llista[i]->humi);
+            sprintf(buffer, "\nHumitat: %d", l->llista[i].humi);
             write(fd, buffer, strlen(buffer));
 
-            sprintf(buffer, "\nPresio: %.1f", l->llista[i]->pressio);
+            sprintf(buffer, "\nPresio: %.1f", l->llista[i].pressio);
             write(fd, buffer, strlen(buffer));
 
-            sprintf(buffer, "\nPrecipitacio: %.1f", l->llista[i]->precip);
+            sprintf(buffer, "\nPrecipitacio: %.1f", l->llista[i].precip);
             write(fd, buffer, strlen(buffer));
 
             write(fd, "\n", 1);
@@ -33,6 +33,7 @@ void FITXER_writeDades(Llista *l){
     }
     close(fd);
 }
+
 //funcio que llegeix el fitxer de configuracio
 void FITXER_readConfig(char const *file, Config *config){
     int fd;

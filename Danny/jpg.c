@@ -7,6 +7,11 @@
  */
 
 #include "jpg.h"
+#include <sys/wait.h>
+#include <signal.h>
+#include <stdio.h>
+#include <sys/types.h>
+#include <unistd.h>
 
 #define WRITE 		1
 #define READ  		0
@@ -22,6 +27,8 @@ void JPG_read(char *directori, char *file, Jpg *jpg){
     strcpy(jpg->nomFitxer, file);
     strcpy(jpg->md5sum, md5);
     jpg->imatge = FITXER_readJpg(path, &(jpg->size));
+    free(path);
+    free(md5);
 }
 
 char* JPG_calculMD5(char *directori, char *file){
@@ -29,6 +36,7 @@ char* JPG_calculMD5(char *directori, char *file){
     int pipeRead[2];
     char *resultat = NULL;
     pipe(pipeRead);
+    char *cmd = "md5sum";
     argv[0] = "md5sum";
     argv[1] = path;
     argv[2] = NULL;
@@ -43,9 +51,11 @@ char* JPG_calculMD5(char *directori, char *file){
             close(pipeRead[READ]);
             dup2(pipeRead[WRITE], 1);
             execvp(cmd, argv);
+            free(path);
             exit(0);
         default://pare
             close(pipeRead[WRITE]);
+            wait(NULL);
             resultat = UNTIL_read(pipeRead[READ], ' ');
             write(1,MSJ_CALCULO_MD5, strlen(MSJ_CALCULO_MD5));
             write(1, resultat, strlen(resultat));
@@ -53,6 +63,7 @@ char* JPG_calculMD5(char *directori, char *file){
             close(pipeRead[READ]);
             break;
     }
+    free(path);
     return resultat;
 }
 

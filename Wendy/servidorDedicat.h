@@ -30,7 +30,7 @@
 
 //Mensajes user
 #define PETICIO_CLOSE           "\nPeticion close: %s"
-#define CLOSE_SERVER            "\nClose server: %s"
+#define CLOSE_SERVER_DEDICAT    "\nClose server: %s"
 #define NEW_CONNECT             "\nNew connect: %s"
 #define IMG_CORRECTE            "\nLa imagen ha sido recibida correctamente."
 #define IMG_INCORRECTE          "\nLa imagen no es correcta."

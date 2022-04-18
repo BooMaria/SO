@@ -5,9 +5,11 @@
  * Data: 17/12/2020
  * Descripció: Funciones requeridas en diferendes codigos.
  */
-
+#define _GNU_SOURCE
 #include "until.h"
-
+#include <stdlib.h>
+#include <stdio.h>
+char *miiiitoa(int num, char *str);
 char* UNTIL_crearMsjDades(Info *info){
     char *buffer;
     buffer = (char*) malloc(100 * sizeof(char));
@@ -28,13 +30,13 @@ char* UNTIL_crearMsjDades(Info *info){
 
 char* UNTIL_crearMsjInfoImatge(char *nomFitxer, int size, char *md5){
     char *buffer;
+    char buf[33];
     buffer = (char*) malloc(100 * sizeof(char));
     memset(buffer, '\0', 100);
     strcat(buffer, nomFitxer);
     strcat(buffer, "#");
-    char *aux = itoa(size);
-    strcat(buffer, aux);
-    free(aux);
+    sprintf(buf, "%d", size);
+    strcat(buffer, buf);
     strcat(buffer, "#");
     strcat(buffer, md5);
     return buffer;
@@ -89,27 +91,6 @@ char* strcatDinamic(char *A, char *B){//
     }
     complet[i + j] = '\0';
     return complet;
-}
-
-int itoaReDi(int num, char *resposta, int i){
-    if(num < 10){
-        resposta = (char*) realloc(resposta, sizeof(char) * i + 1);
-        resposta[0] = (char)('0' + num);
-        resposta[i] = '\0';
-        return 0;
-    }else{
-        int j = itoaReDi(num / 10, resposta, ++i);
-        j++;
-        resposta[j] = (char)((num % 10) + '0');
-        if(i != 1) return j;
-    }
-    return 1;
-}
-char* itoa(int num){
-    char *aux = (char*) malloc (sizeof(char));
-    int i = 1;
-    itoaReDi(num, aux, i);
-    return aux;
 }
 
 

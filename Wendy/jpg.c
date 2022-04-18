@@ -12,8 +12,8 @@
 #include <string.h>
 #include <unistd.h>
 #include <fcntl.h>
-#include <stdio.h>
-#include <string.h>
+#include <sys/wait.h>
+
 #include "until.h"
 #include "jpg.h"
 
@@ -49,6 +49,7 @@ char* JPG_calculMD5(char *file){
     int pipeRead[2];
     char *resultat = NULL;
     pipe(pipeRead);
+    char *cmd = "md5sum";
     argv[0] = "md5sum";
     argv[1] = path;
     argv[2] = NULL;
@@ -63,10 +64,11 @@ char* JPG_calculMD5(char *file){
             close(pipeRead[READ]);
             dup2(pipeRead[WRITE], 1);
             execvp(cmd, argv);
-            //free(path);
+            free(path);
             exit(0);
         default://pare
             close(pipeRead[WRITE]);
+            wait(NULL);
             resultat = UNTIL_read(pipeRead[READ], ' ');
             write(1,MSJ_CALCULO_MD5, strlen(MSJ_CALCULO_MD5));
             write(1, resultat, strlen(resultat));
@@ -74,6 +76,7 @@ char* JPG_calculMD5(char *file){
             close(pipeRead[READ]);
             break;
     }
+    free(path);
     return resultat;
     //return md5;
 }

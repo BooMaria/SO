@@ -6,24 +6,6 @@
  * Descripció: Estación meteorologica DANNY.
  */
 
-/*
- * #include <stdio.h>
-#include <stdlib.h>
-#include <fcntl.h>
-#include <unistd.h>
-#include <sys/types.h>
-#include <string.h>
-#include <errno.h>
-#include <time.h>
-#include <signal.h>
-#include <dirent.h>
-#include <pthread.h>
-#include <arpa/inet.h>
-#include <sys/socket.h>
-#include <sys/stat.h>
-#include <netinet/in.h>
- */
-
 #define _DEFAULT_SOURCE
 
 #include "fitxer.h"
@@ -98,6 +80,7 @@ void comprovarFichers(){
                     char *msj = UNTIL_crearMsjDades(&info);
                     Ok = CONEXIO_EnviarJack(msj);
                     free(msj);
+                    free(arxius[i]);
                     UNTIL_freeInfo(&info);
                     if (!Ok) {
                         CONEXIO_interruptJack();
@@ -105,8 +88,10 @@ void comprovarFichers(){
                 }
                 if (strstr(arxius[i]->d_name, ".jpg") != NULL) {
                     JPG_read(config.directori, arxius[i]->d_name, &jpg);
+                   // write(1,arxius[i]->d_name, strlen(arxius[i]->d_name));
                     Ok = CONEXIO_EnviarWendy(&jpg);
                     free(jpg.imatge);
+                    free(arxius[i]);
                     if (!Ok) {
                         finalitzaDanny();
                         CONEXIO_interruptWendy();
@@ -114,6 +99,7 @@ void comprovarFichers(){
                 }
             }
         }
+        free(arxius);
     }
     alarm(atoi(config.temps));
     signal(SIGALRM, comprovarFichers);
@@ -149,6 +135,7 @@ int main(int argc, char const *argv[]) {
             }
         }else{
             write(1, ERROR_SERVIDORES, strlen(ERROR_SERVIDORES));
+            finalitzaDanny();
         }
     }
     return 0;

@@ -47,4 +47,5 @@ void FITXER_borrarJpg(char *file){
     }else{
         write( 1 , ERROR_BORRAR_FIT,sizeof(ERROR_BORRAR_FIT));
     }
+    free(path);
 }

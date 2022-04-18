@@ -52,21 +52,20 @@ int SERDEDICAT_run(int fd){
         ssDD.conexions = (Conexio **)realloc((ssDD.conexions), sizeof(Conexio *) * (ssDD.numElements + 1));
         ssDD.conexions[ssDD.numElements] = aux;
         ssDD.numElements++;
-        free(aux);
     }
     return 1;
 }
 
 void SERDEDICAT_close(int thisFd) {
     Conexio *aux;
-    char buffer[150];
+    char buffer[150] = "";
     int trobat = FALSE;
     int j, i;
     for (i = 0; i < ssDD.numElements; i++) {
         if (ssDD.conexions[i]->fd == thisFd) {
             aux = ssDD.conexions[i];
             trobat = TRUE;
-            sprintf(buffer, CLOSE_SERVER, aux->nomEstacio);
+            sprintf(buffer, CLOSE_SERVER_DEDICAT, aux->nomEstacio);
             write(1, buffer, strlen(buffer));
             break;
         }
@@ -169,7 +168,6 @@ int protocolDades(int fd){
     char *bufferWrite;
     char *md5;
     int a = read(fd, &bufferRead, SIZEMSG);
-    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreure(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_DANNY) == 0){
@@ -181,10 +179,12 @@ int protocolDades(int fd){
 
                     if(!protocolImatge(fd, &jpg, i))return 1;
                 }
-
                 FITXER_writeJpg(jpg.nomFitxer, jpg.imatge, jpg.size);
 
+                pthread_mutex_lock(&mutex);//comenta si no chuta
                 md5 = JPG_calculMD5(jpg.nomFitxer);//aixo montserrat
+                pthread_mutex_unlock(&mutex);
+
                 if (strcmp(md5, jpg.md5sum) == 0) {
                     write(1, IMG_CORRECTE, strlen(IMG_CORRECTE));
                     MENSAJE_crear(&mensaje, ORIGEN_WENDY, TIPUS_S, MSJ_IMATGE_OK);
@@ -237,7 +237,6 @@ int protocolImatge(int fd, Jpg *jpg, int inici){
     char bufferRead[150];
     char *bufferWrite;
     int a = read(fd, &bufferRead, SIZEMSG);
-    write(1, bufferRead, SIZEMSG);
     if(a == SIZEMSG){
         MENSAJE_extreureImg(&mensaje, bufferRead);
         if(strcmp(mensaje.origen, ORIGEN_DANNY) == 0){

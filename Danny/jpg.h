@@ -12,6 +12,7 @@
 #include "until.h"
 #include "fitxer.h"
 
+
 //Mensaje error
 #define ERRORFICHERIMATGE               "\nError, en la lectura del fichero imagen."
 #define ERR_FORK	                    "\nError en la creacion del fork."

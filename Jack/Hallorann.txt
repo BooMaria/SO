@@ -1,0 +1,5 @@
+Menorca
+Temperatura: 9.3
+Humitat: 20
+Presio: 1018.5
+Precipitacio: 0.0

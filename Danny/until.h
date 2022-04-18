@@ -11,6 +11,7 @@
 
 //liibreries
 #include <stdlib.h>
+#include <stdio.h>
 #include <unistd.h>
 #include <string.h>
 
@@ -88,13 +89,6 @@ void UNTIL_freeConfig(Config *config);
  * Post:--
  */
 char* strcatDinamic(char *A, char *B);
-
-/*
- * Itoa, recursiu i memoria dinamica. Aquesta funcio esta formada per dos codis.
- * Pre: El numero te que ser un enter en format integer.
- * Post: Retorna una cadena de carcters amb el numero.
- */
-char* itoa(int num);
 
 
 #endif //DANNY_UNTIL_H

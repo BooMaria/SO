@@ -26,6 +26,8 @@ int socket_fd;
 
 void close_server() {
     kill(pid1, SIGINT);//ACABA FILL
+    wait(NULL);//2 canvi, 3/1/21
+    SERDEDICAT_destroy();
     write(1, CLOSE_SERVER, sizeof(CLOSE_SERVER));
     close(socket_fd);
     shmdt(dades);

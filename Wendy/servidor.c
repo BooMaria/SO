@@ -1,4 +1,11 @@
-
+/*
+ * Autors:
+ * Maria Aguilà Pons : maria.aguila
+ * Xavier Cavaller Allés : xavier.cavaller
+ * Data: 17/12/2020
+ * Descripció: Sevidor, este codigo gestiona las peticiones de las estaciones para generar
+ * un servidor dedicado.
+ */
 
 #define _GNU_SOURCE
 
@@ -26,6 +33,7 @@ Config config;
 
 void close_server() {
     write(1, CLOSE_SERVER, sizeof(CLOSE_SERVER));
+    SERDEDICAT_destroy();
     free(config.ip);
     close(socket_fd);
     exit(0);

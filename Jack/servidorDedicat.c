@@ -52,7 +52,6 @@ int SERDEDICAT_run(int fd){
         ssDD.conexions = (Conexio **)realloc((ssDD.conexions), sizeof(Conexio *) * (ssDD.numElements + 1));
         ssDD.conexions[ssDD.numElements] = aux;
         ssDD.numElements++;
-        free(aux);
     }
     return 1;
 }
@@ -68,7 +67,6 @@ void SERDEDICAT_close(int thisFd) {
             trobat = TRUE;
             sprintf(buffer, CLOSE_SERVERDEDICAT, aux->nomEstacio);
             write(1, buffer, strlen(buffer));
-            free(aux); // es possible
             break;
         }
     }
@@ -190,7 +188,6 @@ int protocolDades(int fd){
                 bufferWrite = MENSAJE_envio(&mensaje);
                 write(fd, bufferWrite, SIZEMSG);
                 free(bufferWrite);
-                // alliberar conexio
                 return 1;
             }
             if(mensaje.tipus == TIPUS_Q){
